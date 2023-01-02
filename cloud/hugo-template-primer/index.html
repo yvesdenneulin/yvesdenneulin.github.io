@@ -25,10 +25,10 @@ similarities in Go templates." />
 	<link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 
-	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="/cloud/css/style.css">
 	
 
-	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="shortcut icon" href="/cloud/favicon.ico">
 		
 </head>
 <body class="body">
@@ -37,7 +37,7 @@ similarities in Go templates." />
 	<div class="container header__container">
 		
 	<div class="logo">
-		<a class="logo__link" href="../" title="Cloud Avancé" rel="home">
+		<a class="logo__link" href="/cloud/" title="Cloud Avancé" rel="home">
 			<div class="logo__item logo__text">
 					<div class="logo__title">Cloud Avancé</div>
 					<div class="logo__tagline">Supports de cours et articles</div>
@@ -51,35 +51,35 @@ similarities in Go templates." />
 	</button>
 	<ul class="menu__list">
 		<li class="menu__item">
-			<a class="menu__link" href="../docs/cours1/">
+			<a class="menu__link" href="/cloud/docs/cours1/">
 				
 				<span class="menu__text">Cours 1 et 2</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="../docs/cours2/">
+			<a class="menu__link" href="/cloud/docs/cours2/">
 				
 				<span class="menu__text">Cours 3</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="../docs/cours3/">
+			<a class="menu__link" href="/cloud/docs/cours3/">
 				
 				<span class="menu__text">Cours Sécurité</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="../docs/choixarticles/">
+			<a class="menu__link" href="/cloud/docs/choixarticles/">
 				
 				<span class="menu__text">Choix d&#39;article</span>
 				
 			</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="../about/">
+			<a class="menu__link" href="/cloud/about/">
 				
 				<span class="menu__text">À propos</span>
 				
@@ -99,14 +99,14 @@ similarities in Go templates." />
 			<h1 class="post__title">(Hu)go Template Primer</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2014-04-02T00:00:00Z">April 02, 2014</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="../categories/development/" rel="category">Development</a>, <a class="meta__link" href="../categories/golang/" rel="category">golang</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2014-04-02T00:00:00Z">April 02, 2014</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/cloud/categories/development/" rel="category">Development</a>, <a class="meta__link" href="/cloud/categories/golang/" rel="category">golang</a>
 	</span>
 </div></div>
 		</header>
 		
 	<figure class="post__thumbnail thumbnail">
 		
-		<img class="thumbnail__image" src="../img/placeholder.png" alt="(Hu)go Template Primer">
+		<img class="thumbnail__image" src="/cloud/img/placeholder.png" alt="(Hu)go Template Primer">
 		
 	</figure><div class="content post__content clearfix">
 			<p>Hugo uses the excellent <a href="https://golang.org/">Go</a> <a href="https://golang.org/pkg/html/template/">html/template</a> library for
@@ -146,7 +146,7 @@ functions.</p>
 <p>Each Go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="../layout/variables">variables</a> page.</p>
+<a href="/layout/variables">variables</a> page.</p>
 <p>A variable is accessed by referencing the variable name.</p>
 <pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
 </code></pre>
@@ -157,7 +157,7 @@ page you are rendering. More details are available on the
 <h2 id="functions">Functions</h2>
 <p>Go template ship with a few functions which provide basic functionality. The Go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="../layout/functions">Hugo template
+available functions with their own. <a href="/layout/functions">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -288,7 +288,7 @@ type (supported by your front matter/config format) and use them however
 you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="../content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="/content/front-matter">front matter</a>.</p>
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
@@ -350,19 +350,19 @@ so, such as in this example:</p>
 	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
 		<li class="tags__item">
-			<a class="tags__link btn" href="../tags/go/" rel="tag">go</a>
+			<a class="tags__link btn" href="/cloud/tags/go/" rel="tag">go</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="../tags/golang/" rel="tag">golang</a>
+			<a class="tags__link btn" href="/cloud/tags/golang/" rel="tag">golang</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="../tags/templates/" rel="tag">templates</a>
+			<a class="tags__link btn" href="/cloud/tags/templates/" rel="tag">templates</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="../tags/themes/" rel="tag">themes</a>
+			<a class="tags__link btn" href="/cloud/tags/themes/" rel="tag">themes</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="../tags/development/" rel="tag">development</a>
+			<a class="tags__link btn" href="/cloud/tags/development/" rel="tag">development</a>
 		</li>
 	</ul>
 </div>
@@ -381,7 +381,7 @@ so, such as in this example:</p>
 
 <nav class="pager flex">
 	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="../about/" rel="next">
+		<a class="pager__link" href="/cloud/about/" rel="next">
 			<span class="pager__subtitle">Next&thinsp;»</span>
 			<p class="pager__title">À propos</p>
 		</a>
@@ -403,10 +403,10 @@ so, such as in this example:</p>
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="../docs/choixarticles/">Choix d&#39;article</a></li>
-			<li class="widget__item"><a class="widget__link" href="../docs/cours3/">Cours Sécurité</a></li>
-			<li class="widget__item"><a class="widget__link" href="../docs/cours2/">Cours 3</a></li>
-			<li class="widget__item"><a class="widget__link" href="../docs/cours1/">Cours 1 et 2</a></li>
+			<li class="widget__item"><a class="widget__link" href="/cloud/docs/choixarticles/">Choix d&#39;article</a></li>
+			<li class="widget__item"><a class="widget__link" href="/cloud/docs/cours3/">Cours Sécurité</a></li>
+			<li class="widget__item"><a class="widget__link" href="/cloud/docs/cours2/">Cours 3</a></li>
+			<li class="widget__item"><a class="widget__link" href="/cloud/docs/cours1/">Cours 1 et 2</a></li>
 		</ul>
 	</div>
 </div>
@@ -415,20 +415,20 @@ so, such as in this example:</p>
 	<div class="widget__content">
 		<ul class="widget__list">
 			<li class="widget__item">
-				<a class="widget__link" href="../categories/development/">Development</a></li>
+				<a class="widget__link" href="/cloud/categories/development/">Development</a></li>
 			<li class="widget__item">
-				<a class="widget__link" href="../categories/golang/">golang</a></li>
+				<a class="widget__link" href="/cloud/categories/golang/">golang</a></li>
 		</ul>
 	</div>
 </div>
 <div class="widget-taglist widget">
 	<h4 class="widget__title">Tags</h4>
 	<div class="widget__content">
-		<a class="widget-taglist__link widget__link btn" href="../tags/development/" title="development">development</a>
-		<a class="widget-taglist__link widget__link btn" href="../tags/go/" title="go">go</a>
-		<a class="widget-taglist__link widget__link btn" href="../tags/golang/" title="golang">golang</a>
-		<a class="widget-taglist__link widget__link btn" href="../tags/templates/" title="templates">templates</a>
-		<a class="widget-taglist__link widget__link btn" href="../tags/themes/" title="themes">themes</a>
+		<a class="widget-taglist__link widget__link btn" href="/cloud/tags/development/" title="development">development</a>
+		<a class="widget-taglist__link widget__link btn" href="/cloud/tags/go/" title="go">go</a>
+		<a class="widget-taglist__link widget__link btn" href="/cloud/tags/golang/" title="golang">golang</a>
+		<a class="widget-taglist__link widget__link btn" href="/cloud/tags/templates/" title="templates">templates</a>
+		<a class="widget-taglist__link widget__link btn" href="/cloud/tags/themes/" title="themes">themes</a>
 	</div>
 </div>
 </aside>
@@ -443,6 +443,6 @@ so, such as in this example:</p>
 	</div>
 </footer>
 	</div>
-<script async defer src="../js/menu.js"></script>
+<script async defer src="/cloud/js/menu.js"></script>
 </body>
 </html>
