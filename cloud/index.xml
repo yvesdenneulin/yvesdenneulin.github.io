@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloud Avancé</title>
-    <link>/</link>
+    <link>https://yvesdenneulin.github.io/cloud/</link>
     <description>Recent content on Cloud Avancé</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Tue, 27 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yvesdenneulin.github.io/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Choix d&#39;article</title>
-      <link>/docs/choixarticles/</link>
+      <link>https://yvesdenneulin.github.io/cloud/docs/choixarticles/</link>
       <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/docs/choixarticles/</guid>
+      <guid>https://yvesdenneulin.github.io/cloud/docs/choixarticles/</guid>
       <description>&lt;p&gt;Voici la liste des articles parmi lesquels vous devez choisir celui que vous présenterez en binôme. Vous inscrirez l&amp;rsquo;article choisi ainsi que la semaine à laquelle vous souhaitez passer sur le tableau dans ce &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1Z69ytERae8-zT93t9oJHDYCnUbmcYoDc2YT2VvH0r5o/edit?usp=sharing&#34;&gt;tableau&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Un article peut être choisi par 2 binômes au maximum.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Cours Sécurité</title>
-      <link>/docs/cours3/</link>
+      <link>https://yvesdenneulin.github.io/cloud/docs/cours3/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/docs/cours3/</guid>
+      <guid>https://yvesdenneulin.github.io/cloud/docs/cours3/</guid>
       <description>Cours Sécurité Voici les transparents sur la partie sécurité : transparents.</description>
     </item>
     
     <item>
       <title>Cours 3</title>
-      <link>/docs/cours2/</link>
+      <link>https://yvesdenneulin.github.io/cloud/docs/cours2/</link>
       <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/docs/cours2/</guid>
+      <guid>https://yvesdenneulin.github.io/cloud/docs/cours2/</guid>
       <description>Cours 3 Voici les transparents sur les parties Architecture de cloud et OpenStack : transparents.</description>
     </item>
     
     <item>
       <title>Cours 1 et 2</title>
-      <link>/docs/cours1/</link>
+      <link>https://yvesdenneulin.github.io/cloud/docs/cours1/</link>
       <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/docs/cours1/</guid>
+      <guid>https://yvesdenneulin.github.io/cloud/docs/cours1/</guid>
       <description>Cours 1 et 2 Voici les transparents sur la partie introduction, ainsi que sur Docker et Kubernetes : transparents.
 Cette partie couvre les 3 premiers TPs : le TP que je vous propose de faire pour explorer Docker est sur le transparent 26 de ce support alors que le TP sur Kubernetes est sur le transparent 43.
 Pour les faire vous pouvez soit installer Docker sur votre machine ou récupérer la machine virtuelle conçue par Sebastien Viardot qui contient une version utilisable de Docker.</description>
@@ -48,19 +48,19 @@ Pour les faire vous pouvez soit installer Docker sur votre machine ou récupére
     
     <item>
       <title>À propos</title>
-      <link>/about/</link>
+      <link>https://yvesdenneulin.github.io/cloud/about/</link>
       <pubDate>Tue, 25 Jan 2022 14:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://yvesdenneulin.github.io/cloud/about/</guid>
       <description>Ce site contient les supports de cours et les articles pour le cours de Cloud Avancé en 3A ISI.</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>/hugo-template-primer/</link>
+      <link>https://yvesdenneulin.github.io/cloud/hugo-template-primer/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>/hugo-template-primer/</guid>
+      <guid>https://yvesdenneulin.github.io/cloud/hugo-template-primer/</guid>
       <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; &lt;a href=&#34;https://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
