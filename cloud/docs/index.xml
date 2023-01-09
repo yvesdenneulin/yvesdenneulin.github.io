@@ -14,7 +14,7 @@
       
       <guid>/docs/cours4/</guid>
       <description>Cours Serverless Voici les transparents pour la partie serverless : transparentes
-L&amp;rsquo;introduction au serverless sur AWS est ici : . Je vous conseille de le lire pour commencer. Ensuite, voici le tutoriel que je vous propose de suivre pour créer et exécuter une fonction lambda : lien. Attention : dans l&amp;rsquo;environnement dans lequel vous ne pouvez créer ni utilisateur ni groupe et vous êtes limités à un seul rôle : LabRole.</description>
+L&amp;rsquo;introduction au serverless sur AWS est ici. Je vous conseille de le lire pour commencer. Ensuite, voici le tutoriel que je vous propose de suivre pour créer et exécuter une fonction lambda : lien. Attention : dans l&amp;rsquo;environnement de votre compte, vous ne pouvez créer ni utilisateur ni groupe et vous êtes limités à un seul rôle : LabRole. Vous devez donc l&amp;rsquo;utiliser dès que vous devez en préciser un.</description>
     </item>
     
     <item>
