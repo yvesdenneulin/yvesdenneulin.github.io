@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supports de cours on Cloud Avancé</title>
+    <link>/docs/</link>
+    <description>Recent content in Supports de cours on Cloud Avancé</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 05 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cours Serverless</title>
+      <link>/docs/cours4/</link>
+      <pubDate>Thu, 05 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cours4/</guid>
+      <description>Cours Serverless Voici les transparents pour la partie serverless : transparentes
+L&amp;rsquo;introduction au serverless sur AWS est ici. Je vous conseille de le lire pour commencer. Ensuite, voici le tutoriel que je vous propose de suivre pour créer et exécuter une fonction lambda : lien. Attention : dans l&amp;rsquo;environnement de votre compte, vous ne pouvez créer ni utilisateur ni groupe et vous êtes limités à un seul rôle : LabRole. Vous devez donc l&amp;rsquo;utiliser dès que vous devez en préciser un.</description>
+    </item>
+    
+    <item>
+      <title>Choix d&#39;article</title>
+      <link>/docs/choixarticles/</link>
+      <pubDate>Tue, 27 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/choixarticles/</guid>
+      <description>&lt;p&gt;Voici la liste des articles parmi lesquels vous devez choisir celui que vous présenterez en binôme. Vous inscrirez l&amp;rsquo;article choisi ainsi que la semaine à laquelle vous souhaitez passer sur le tableau dans ce &lt;a href=&#34;https://docs.google.com/spreadsheets/d/1Z69ytERae8-zT93t9oJHDYCnUbmcYoDc2YT2VvH0r5o/edit?usp=sharing&#34;&gt;tableau&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Un article peut être choisi par 2 binômes au maximum.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cours Sécurité</title>
+      <link>/docs/cours3/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cours3/</guid>
+      <description>Cours Sécurité Voici les transparents sur la partie sécurité : transparents.</description>
+    </item>
+    
+    <item>
+      <title>Cours 3</title>
+      <link>/docs/cours2/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cours2/</guid>
+      <description>Cours 3 Voici les transparents sur les parties Architecture de cloud et OpenStack : transparents.</description>
+    </item>
+    
+    <item>
+      <title>Cours 1 et 2</title>
+      <link>/docs/cours1/</link>
+      <pubDate>Tue, 13 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/cours1/</guid>
+      <description>Cours 1 et 2 Voici les transparents sur la partie introduction, ainsi que sur Docker et Kubernetes : transparents.
+Cette partie couvre les 3 premiers TPs : le TP que je vous propose de faire pour explorer Docker est sur le transparent 26 de ce support alors que le TP sur Kubernetes est sur le transparent 43.
+Pour les faire vous pouvez soit installer Docker sur votre machine ou récupérer la machine virtuelle conçue par Sebastien Viardot qui contient une version utilisable de Docker.</description>
+    </item>
+    
+  </channel>
+</rss>
